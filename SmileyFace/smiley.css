@@ -1,0 +1,88 @@
+.wrapper {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.face {
+    margin-left: 100px;
+    margin-bottom: 35px;
+    width: 75px;
+    height: 75px;
+    border: solid 2px black;
+    background-color: yellow;
+    border-radius: 39px;
+    /* not sure why border-radius: was set to 50 in the example 
+    ... half of 75px would suffice. ?  */
+}
+
+.eye {
+    width: 6px;
+    height: 6px;
+    border: solid 1px black;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+}
+
+.left {
+    left: 32px; /* did not add 5px versus example to offset larger .wrapper margin */
+    top: 26px;
+}
+
+.right {
+    left: 55px;
+    top: 18px;
+}
+
+.lens {
+    z-index: 2;
+    position: relative;
+    width: 9px;
+    height: 9px;
+    border: solid 4px rgb(248, 164, 213);
+    border-radius: 7px;
+}
+
+.r1 {
+    left: 50px;
+    top: -39px;
+}
+
+.l1 {
+    left: 27px;
+    top: -56px;
+}
+
+.frame {
+    position: relative;
+    width: 55px;
+    height: 2px;
+    left: 10px;
+    top: -71px;
+    background-color: rgb(114, 113, 113);
+}
+
+  .pupil {
+    width: 2px;
+    height: 2px;
+    border: solid 1px black;
+    border-radius: 2px;
+    position: relative;
+    top: 1px;
+    left: 2px;
+    background-color: black;
+}
+
+
+.mouth {
+    width: 30px;
+    height: 10px;
+    border: solid 2px black;
+    border-radius: 0 0 45px 45px;
+    margin: 15px;
+    position: relative;
+    top: 1em;
+    left: 1em;
+    background-color: rgb(239, 66, 167);
+  }
